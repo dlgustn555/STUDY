@@ -1,0 +1,17 @@
+{
+  "name": "study-mono",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:all": "pnpm run --parallel -r build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "true"
+  ],
+  "devDependencies": {
+    "nx": "^17.2.8"
+  }
+}
