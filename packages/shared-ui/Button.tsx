@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react"
 
-interface Props{
-    onClick: (event: React.SyntheticEvent<HTMLButtonElement>) => void
-    children: React.ReactNode
+interface Props {
+  onClick: (event: React.SyntheticEvent<HTMLButtonElement>) => void
+  children: React.ReactNode
 }
-const Button: React.FC<Props> = ({onClick, children}) => {
-    return (
-        <button type="button" onClick={onClick}>
-            {children}
-        </button>
-    );
-};
+const Button: React.FC<Props> = ({ onClick, children }) => {
+  return (
+    <button type="button" onClick={onClick} style={{ background: "red" }}>
+      {children}
+    </button>
+  )
+}
 
-export default Button;
+export default Button

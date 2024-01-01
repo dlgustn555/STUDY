@@ -7,5 +7,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "true"
+  ],
+  "devDependencies": {
+    "nx": "^17.2.8"
+  }
 }

@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect, useState, memo } from "react"
+import Button from "shared-ui/Button"
 
 const Component: React.FC<{ count: number }> = memo(({ count }) => {
   useEffect(() => {
@@ -28,7 +29,7 @@ const Code1_2 = () => {
       <p>current Count: {count}</p>
       <Component count={100} />
       <DeepComponent count={{ count: 100 }} />
-      <button onClick={handleCount}>+</button>
+      <Button onClick={handleCount}>+</Button>
 
       {/* <Button onClick={handleCount}>+</Button> */}
     </div>

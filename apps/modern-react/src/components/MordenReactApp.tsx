@@ -1,4 +1,5 @@
 "use client"
+
 import React from "react"
 import Code1_2 from "./Code1_2"
 
